@@ -1,0 +1,19 @@
+.homepage{
+    height:100% ;
+    padding :0px 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    #hero-img{max-width: 450px;
+        max-height: 450px;
+    }
+.content{
+    padding:10px;
+    .text{
+        span{
+            font-weight: bold;
+        }
+    }
+}
+
+}
