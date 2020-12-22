@@ -7,7 +7,7 @@ import {
   Route,
 } from "react-router-dom";
 import Header from "./components/header/header.component.jsx";
-
+import About from "./pages/about/about.component.jsx";
 import Footer from "./components/footer/footer.component.jsx";
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
             <Home />
           </Route>
           <Route path="/about">
-
+<About />
           </Route>
 
         </Switch>

@@ -8,12 +8,24 @@
         max-height: 450px;
     }
 .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+.container{
+    height: fit-content;
     padding:10px;
+    border-left: 3px solid darkblue;
+    .button{
+        margin-top: 1.5rem;
+    }
     .text{
+        font-size: 1.2em;
         span{
             font-weight: bold;
         }
-    }
+    }}
 }
 
 }
